@@ -1,0 +1,208 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0038)http://www.dearindia.com/sendmail.html -->
+<HTML><HEAD>
+<META content="text/html; charset=windows-1252" http-equiv=Content-Type>
+<SCRIPT language=JavaScript>
+
+function validate(){
+
+	var str=document.mail.e_mail.value;
+
+	var msg=document.mail.content.value;
+
+	if ((str.indexOf(" ") >= 0) || (str.length<1)|| (str.indexOf("@")<1) || (str.indexOf("@")==(str.length-1))){
+
+	    alert ("Dear Friend  \n Unless you enter a valid email address\n your letter will not be sent ");
+
+	    return false;
+
+	    }
+
+	else if(msg.length>4500){
+
+			alert("Dear Friend \n Your Message exceeds the limit of 4500 charachters \n Kindly retry after shortening your message!")
+
+			return false;
+
+		}
+
+	     else{
+
+	    	return true;
+
+	    	};
+
+}	
+
+</SCRIPT>
+
+<STYLE>BODY {
+	MARGIN-LEFT: -2pt; MARGIN-RIGHT: -2pt
+}
+IMG {
+	MARGIN-BOTTOM: -2pt; MARGIN-RIGHT: -2pt
+}
+TD {
+	MARGIN-BOTTOM: -2pt; MARGIN-RIGHT: -2pt
+}
+TABLE {
+	MARGIN-BOTTOM: -2pt; MARGIN-RIGHT: -2pt
+}
+</STYLE>
+
+<META content="MSHTML 5.00.2920.0" name=GENERATOR></HEAD>
+<BODY link=#ffffff vLink=#ffefdf>
+<TABLE width="100%" height="90">
+  <TBODY> 
+  <TR>
+    <TD width="80%"><IMG src="sendmail_files/top.jpg" width="369" height="62"></TD>
+    <TD><IMG src="kabuthar.jpg" width="143" height="81"></TD>
+  </TR></TBODY></TABLE>
+<br>
+<TABLE bgColor=#FFA020 borderColor=#ffffff cellPadding=0 cellSpacing=0 height=10 
+width="100%">
+  <TBODY> 
+  <TR>
+    <TD height="100%" vAlign=center>
+      <CENTER>
+        <b><font color="#FFFFFF" face="Arial" size="2"><a href="index.html" style="color: #FFFFFF">HOME</a> 
+        || SEND MAIL || <a href="cards.html">SEND CARDS</a> || <a href="disclaimer.html" style="color: #FFFFFF"> 
+        DISCLAIMER</a> || <a href="mailto:webmaster@dearindia.com" style="color: #FFFFFF"> 
+        CONTACT US</a></font></b> 
+      </CENTER></TD></TR></TBODY></TABLE><BR><BR>
+<FORM action=cgi-bin/send2.cgi method=post name=mail 
+onsubmit="return validate()">
+  <TABLE align=center height="100%" width="90%">
+    <TBODY> 
+    <TR>
+      <TD width="50%" valign="top"> 
+           <TABLE><FONT color=#5e300f>
+        <font color=#000000><b>From</b></font>
+          
+        <TR>
+            <TD><FONT color=#5e300f 
+          face="Times New Roman"><BIG><font face="Times New Roman, Times, serif" color="#000000">Name</font></BIG></FONT></TD>
+          <TD><INPUT maxLength=25 name=fromname></TD></TR>
+        <TR>
+            <TD width=30><FONT color=#5e300f 
+            face="Times New Roman"><BIG><font color="#000000">Address</font></BIG></FONT></TD>
+          <TD><INPUT maxLength=25 name=frmaddr1></TD></TR>
+        <TR>
+          <TD>&nbsp;</TD>
+          <TD><INPUT maxLength=25 name=frmaddr2></TD></TR>
+        <TR>
+            <TD><FONT color=#5e300f 
+            face="Times New Roman"><BIG><font color="#000000">City/Town</font></BIG></FONT></TD>
+          <TD><INPUT maxLength=25 name=frmcity></TD></TR>
+        <TR>
+            <TD><FONT color=#5e300f 
+            face="Times New Roman"><BIG><font color="#000000">State</font></BIG></FONT></TD>
+          <TD><INPUT maxLength=25 name=frmstate></TD></TR>
+        <TR>
+            <TD><FONT color=#5e300f 
+            face="Times New Roman"><BIG><font color="#000000">Country</font></BIG></FONT></TD>
+          <TD><INPUT maxLength=25 name=frmcountry></TD></TR>
+        <TR>
+            <TD><FONT color=#5e300f 
+            face="Times New Roman"><BIG><font color="#000000">E-Mail:</font></BIG></FONT></TD>
+          <TD><INPUT name=e_mail></TD></TR></FONT>
+          </TABLE></TD>
+      <TD width="50%">
+        <TABLE>
+          <tr> 
+            <td><a href="http://www.ksidc.org" target=_blank><img 
+            alt="Visit www.ksidc.org" border=0 height=70 
+            src="sendmail_files/ksidc.gif" width=480>
+              </a></td>
+          </tr>
+          <tr> 
+            <td><a href="http://www.ksidc.org" target=_blank><img 
+            alt="Visit www.ksidc.org" border=0 height=70 
+            src="images/ktdc.jpg" width=480></a></td>
+          </tr>
+          <tr> 
+            <td><img border=0 height=70 
+            src="sendmail_files/sbt.gif" width=480 usemap="#Map"> </td>
+          </tr>
+          <TBODY> 
+          <TR> 
+            <TD height="79"><a href="http://www.dhanbank.com/" target=_blank><img 
+            alt="Visit www.dhanbank.com" border=0 height=70 
+            src="sendmail_files/dhanalogo.gif" width=480></a></TD>
+          </TR>
+          <TR> 
+            <TD><a href="http://www.kfc.org/" target=_blank><img 
+            alt="KFC Funding for your industry" border=0 height=70 
+            src="sendmail_files/kfc.jpg" width=480></a><BR>
+            </TD>
+          </TR>
+          </TBODY> 
+        </TABLE>
+      </TD></TR>
+  <TR>
+    <TD><BR><BR><BR>
+        <H3><font color="#000000">To</font></H3>
+      <TABLE width="50%">
+        <TBODY>
+        <TR>
+            <TD><FONT color=#5e300f 
+          face="Times New Roman"><BIG><font color="#000000">Name</font></BIG></FONT></TD>
+          <TD><INPUT maxLength=25 name=toname></TD></TR>
+        <TR>
+            <TD width=30><FONT color=#5e300f 
+            face="Times New Roman"><BIG><font color="#000000">Address</font></BIG></FONT></TD>
+          <TD><INPUT maxLength=25 name=toaddr1></TD></TR>
+        <TR>
+          <TD>&nbsp;</TD>
+          <TD><INPUT maxLength=25 name=toaddr2></TD></TR>
+        <TR>
+            <TD><FONT color=#5e300f 
+            face="Times New Roman"><BIG><font color="#000000">City/Town</font></BIG></FONT></TD>
+          <TD><INPUT maxLength=25 name=tocity></TD></TR>
+        <TR>
+            <TD><FONT color=#5e300f 
+            face="Times New Roman"><BIG><font color="#000000">State</font></BIG></FONT></TD>
+          <TD><INPUT maxLength=25 name=tostate></TD></TR>
+        <TR>
+          <TD>&nbsp;</TD>
+            <TD><BIG><FONT color=#5e300f 
+            face="Times New Roman"><B><font color="#000000">INDIA&nbsp;&nbsp;</font></B></FONT></BIG><font color="#000000" face="Times New Roman"> 
+              PIN </font><FONT 
+            color=#5e300f face="Times New Roman">
+<INPUT maxLength=6 
+            name=topin 
+size=6></FONT></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><TR><TD 
+colspan="2"><BR><BR>
+<TABLE height="100%">
+  <TBODY>
+  <TR>
+          <TD><BIG><font color="#000000">Type in your message below</font></BIG><font color="#000000"> 
+            <BR>
+            <B><BR>
+            1. Please do not use this service for communication within India.<BR>
+            2. Please do not use this service for commercial purposes.<BR>
+            3. Please put only text messages below.<BR>
+            4. Limit 4500 characters.</B></font></TD>
+        </TR>
+  <TR>
+    <TD><TEXTAREA cols=55 name=content rows=15 maxlength="4500"></TEXTAREA></TD></TR></TBODY></TABLE></TD></TR>
+<CENTER><BR><INPUT name=send type=submit value="  Post  "></CENTER><BR><BR><BR><BR>
+  <TABLE bgColor=#FFA020 borderColor=#ffffff cellPadding=0 cellSpacing=0 height=10 
+width="100%">
+    <TBODY> 
+    <TR>
+    <TD height="100%" vAlign=center>
+      <CENTER>
+          <p align="center"><b><font color="#FFFFFF" face="Arial" size="2"><a href="index.html" style="color: #FFFFFF">HOME</a> 
+            || <a href="sendmail.html" style="color: #FFFFFF"> SEND MAIL</a> || 
+            SEND CARDS || <a href="disclaimer.html" style="color: #FFFFFF"> DISCLAIMER</a> 
+            || <a href="mailto:webmaster@dearindia.com" style="color: #FFFFFF"> 
+            CONTACT US</a></font></b> 
+        </CENTER></TD></TR></TBODY></TABLE></FORM>
+<map name="Map"> 
+  <area shape="rect" coords="18,78,496,131" href="http://216.0196.220/" alt="State Bank of Travancore" title="State Bank of Travancore" target="_blank">
+  <area shape="rect" coords="79,53,167,70" href="http://216.0.196.220/NRIApplication/NRIAccount.htm" alt="Account..." title="Account..." target="_blank">
+  <area shape="rect" coords="243,52,313,71" href="http://216.0.196.220/Schemes/Index.html" alt="NRI Branch" title="NRI Branch" target="_blank">
+  <area shape="rect" coords="401,53,461,68" href="http://online.sbt.co.in/" alt="SBT online" title="SBT online" target="_blank">
+</map>
+</BODY></HTML>
